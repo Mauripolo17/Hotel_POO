@@ -11,17 +11,18 @@ class Rooms:
     def inf(self):
         pass
 
+    def cost(self, nights):
+        pass
+       
+    def Benefits(self):
+        pass
+
     def reserve(self):
         self.available=False
 
-    def cost(self, nights):
-        pass
-    
     def guest(self, resident):
         self.resident=resident
-        
-    def Benefits(self):
-        print("Aqui van los beneficios")
+     
 
 class vip(Rooms):
     

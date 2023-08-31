@@ -10,7 +10,6 @@ class Node:
         self.left=None
         self.right=None
     
-
 class TreeHotel:
     def __init__(self):
         self.root=None
