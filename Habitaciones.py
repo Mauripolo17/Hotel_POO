@@ -1,15 +1,13 @@
 
 class Rooms:
 
-<<<<<<< HEAD
     def __init__(self, id, typeroom, price, available=True):
         self.id=id
         self.typeroom=typeroom
-=======
+
     def __init__(self, id, type, price, available=True):
         self.id=id
         self.type=type
->>>>>>> aafe264dfecc574f102825f3a54491313b871d03
         self.price=price
         self.available=available
         self.resident=None
@@ -17,7 +15,7 @@ class Rooms:
     def inf(self):
         pass
 
-<<<<<<< HEAD
+
     def cost(self, nights):
         pass
        
@@ -30,7 +28,7 @@ class Rooms:
     def guest(self, resident):
         self.resident=resident
      
-=======
+
     def reserve(self):
         self.available=False
 
@@ -42,7 +40,7 @@ class Rooms:
         
     def Benefits(self):
         print("Aqui van los beneficios")
->>>>>>> aafe264dfecc574f102825f3a54491313b871d03
+
 
 class vip(Rooms):
     
@@ -96,12 +94,3 @@ class double(Rooms):
             return (self.price*nights)*0.9 
         else:
             return self.price*nights
-    
-<<<<<<< HEAD
-=======
-
-
-
-na=vip(123, True)
-print(na.cost(5))
->>>>>>> aafe264dfecc574f102825f3a54491313b871d03
